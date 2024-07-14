@@ -2,7 +2,6 @@ package com.example.imcapp
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +11,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.slider.RangeSlider
 
 class MainActivity : AppCompatActivity() {
+    // prueba de pull request
     private var isMaleSelected = true
     private var isFemaleSelected = false
     private var currentHeight = 130
