@@ -14,6 +14,7 @@ import com.example.imcapp.MainActivity.Companion.IMC_KEY
 import java.text.DecimalFormat
 
 class ResultIMCActivity : AppCompatActivity() {
+    // esto es otra prueba para el pull request
     lateinit var txtIMC:TextView
     lateinit var txtIndicator: TextView
     lateinit var txtExplain: TextView
