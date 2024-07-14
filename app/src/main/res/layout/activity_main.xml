@@ -127,10 +127,13 @@
                 android:id="@+id/range"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:stepSize="1"
                 android:valueFrom="120"
-                android:valueTo="210" />
+                android:valueTo="210"
+                app:trackColor="@color/slider_track_color"
+                app:thumbColor="@color/slider_thumb_color"
+                app:haloColor="@color/slider_halo_color"
+                app:tickColor="@color/slider_tick_color"/>
 
         </LinearLayout>
 
@@ -265,6 +268,7 @@
         android:textStyle="bold"
         android:textSize="20dp"
         android:textColor="@color/white"
+        android:backgroundTint="@color/teal_200"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
