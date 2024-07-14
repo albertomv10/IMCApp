@@ -15,4 +15,9 @@
     <color name="sobrepeso">#EF4915</color>
     <color name="obesidad">#D90000</color>
 
+    <color name="slider_track_color">#FF03DAC5</color> <!-- Color del track -->
+    <color name="slider_thumb_color">#FF03DAC5</color> <!-- Color del thumb -->
+    <color name="slider_halo_color">#FF3700B3</color>  <!-- Color del halo -->
+    <color name="slider_tick_color">#435FFA</color>  <!-- Color de las marcas -->
+
 </resources>
