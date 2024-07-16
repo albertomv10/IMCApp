@@ -47,8 +47,7 @@ class ResultIMCActivity : AppCompatActivity() {
 
     private fun initiListeners(){
         btnBack.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
+            finish()
         }
     }
 
